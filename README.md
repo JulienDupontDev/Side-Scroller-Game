@@ -1,17 +1,23 @@
-# Side Scroller
+# Robot world saver
 
-This is the code base for the side scroller tutorial videos posted on my YouTube channel. 
+Vous incarnez un robot qui tente de survivre à un environnement post-apocalyptique hostile. Des chars contrôlés par une IA essaient de vous détruire. Vous devez en détruire le plus possible le temps que votre programme puisse renverser l'intelligence artificielle.
 
-You can check out the tutorial videos here: https://www.youtube.com/watch?v=PjgLeP0G5Yw&t=53s
+Vous devez atteindre un score de 100.
 
-# Requirements
+# Contrôles du robot
+
+- **Flèches droite et gauche**: déplacer le robot horizontalement
+- **Haut**: sauter
+- **Espace**: tirer
+
+Vous ne pourrez tirer qu'1 fois toutes les 2 secondes.
+
+# Elements requis pour le jeu sur votre système
+
 - Python 3.x
 - pygame
+- pygame_menu
 
-# Run in Gitpod
+# Lancer le jeu
 
-You can also run Sudoku-GUI-Solver in Gitpod, a free online dev environment for GitHub:
-
-If you're intersted in a paid subscription with GitPod use the coupon code: TECHWITHTIM19
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/techwithtim/Side-Scroller-Game/blob/master/main.py)
+python3 main.py
